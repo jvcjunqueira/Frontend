@@ -15,7 +15,7 @@ export class App {
   apiURL : string;
 
  constructor(private http: HttpClient) {
-  this.apiURL = 'http://backend-208s.onrender.com/api';
+  this.apiURL = 'http://backend-208s.onrender.com';
   this.READ_tarefas();
  }
  
